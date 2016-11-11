@@ -6,7 +6,7 @@ import com.firebase.client.Firebase;
 import com.squareup.otto.Bus;
 
 /**
- * Created by chanchikin on 11/10/2016.
+ * Created by chanchikin on 11/10/2016.r
  */
 
 public class BeastShoppingApplication extends Application{
