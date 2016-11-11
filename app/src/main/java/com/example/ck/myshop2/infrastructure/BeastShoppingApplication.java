@@ -2,6 +2,7 @@ package com.example.ck.myshop2.infrastructure;
 
 import android.app.Application;
 
+import com.firebase.client.Firebase;
 import com.squareup.otto.Bus;
 
 /**
@@ -20,6 +21,8 @@ public class BeastShoppingApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
+
+        Firebase.setAndroidContext(this);
     }
 
     public Bus getBus() {
