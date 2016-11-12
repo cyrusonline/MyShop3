@@ -22,6 +22,8 @@
         android:textColorHint="#fff"
         android:padding="14dp"
         android:inputType="textEmailAddress"
+        android:background="@color/colorPrimary"
+        android:hint="Email"
 
         />
 
@@ -35,15 +37,30 @@
         android:padding="14dp"
         android:inputType="textPassword"
         android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:hint="Password"
 
         />
 
     <Button
+        android:id="@+id/activity_login_loginButton"
         android:layout_width="225dp"
         android:layout_height="40dp"
         android:text="Sign in"
         android:layout_marginTop="15dp"
         android:textStyle="bold"
+        android:background="@drawable/button_background"
+
+        />
+
+    <Button
+        android:id="@+id/activity_login_registerButton"
+        android:layout_width="225dp"
+        android:layout_height="40dp"
+        android:text="No Account? Sign Up"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
         />
 
 
