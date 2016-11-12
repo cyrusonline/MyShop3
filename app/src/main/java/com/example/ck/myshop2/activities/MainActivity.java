@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.example.ck.myshop2.R;
 
 
-//start lecture 4
+//start lecture 5     9:49
 public class MainActivity extends BaseActivity {
 
     @Override
