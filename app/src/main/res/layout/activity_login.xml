@@ -24,6 +24,8 @@
         android:inputType="textEmailAddress"
         android:background="@color/colorPrimary"
         android:hint="Email"
+        android:drawableLeft="@mipmap/ic_email"
+        android:drawableStart="@mipmap/ic_email"
 
         />
 
@@ -39,6 +41,8 @@
         android:layout_marginTop="15dp"
         android:background="@color/colorPrimary"
         android:hint="Password"
+        android:drawableLeft="@mipmap/ic_lock"
+        android:drawableStart="@mipmap/ic_lock"
 
         />
 
