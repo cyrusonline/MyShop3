@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 
 import com.example.ck.myshop2.R;
@@ -22,6 +23,9 @@ public class RegisterActivity extends BaseActivity{
 
     @BindView(R.id.activity_register_linear_layout)
     LinearLayout linearLayout;
+
+    @BindView(R.id.activity_register_userEmail)
+    EditText userEmail;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
